@@ -19,23 +19,24 @@
       </div>
     </nav>
     <hr class="navbar">
-    <div>
-      <form>
-        <div>
-          <div>
-            <label for="email-input">Email</label>
-            <input type="email" id="email-input" />
+
+    <div class="mx-auto my-5 bg-light p-3 shadow-lg rounded w-50">
+      <form class="p-2">
+        <div class="row g-3 mb-3 align-items-center">
+          <div class="col-auto">
+            <label for="email-input" class="col-form-label">Email</label>
+            <input type="email" id="email-input" class="form-control"/>
           </div>
-          <div>
-            <label for="name-input">Name</label>
-            <input type="name" id="name-input" />
+          <div class="col-auto">
+            <label for="name-input" class="col-form-label">Name</label>
+            <input type="name" id="name-input" class="form-control" />
           </div>
 
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
+          <div class="col-auto">
+            <label for="message" class="col-form-label">Message</label>
+            <textarea id="message" class="form-control" rows="5"></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" class="btn btn-dark mt-5">Submit</button>
         </div>
       </form>
     </div>
